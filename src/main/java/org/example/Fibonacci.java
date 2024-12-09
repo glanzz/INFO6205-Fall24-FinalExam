@@ -29,11 +29,7 @@ public class Fibonacci {
      * @return the sum of the Fibonacci numbers 0 through n.
      */
     public long sumN(int n) {
-        long sum = 0;
-        for(int i = 0; i <= n; i++) {
-            sum += fibN(i);
-        }
-        return sum;
+        return fibN(n+2)-1;
     }
 
     public Fibonacci() {
